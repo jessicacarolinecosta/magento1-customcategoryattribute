@@ -13,5 +13,5 @@ Go to ```app/code/community/Tek/CustomCatAttribute/sql/add_category_attribute/my
 
 ```label``` is the title of input in frontend
 
-## Get the attribute value in front end
+## Get the attribute value in front-end
 Mage::getResourceModel('catalog/category')->getAttributeRawValue($categoryObject->getId(), "custom_attribute", Mage::app()->getStore()->getId());
